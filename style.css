@@ -1,0 +1,118 @@
+
+.main__article1{
+    background-color: #edb4e1;
+    padding: 5em;
+    border-radius: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6em;
+    width: 50%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 20px 6px #edb4e1;
+}
+
+.main__profilepicture{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+
+.main__img img{
+    width: 10em;
+    height: 10em;
+}
+
+.main__urlinput input{
+    font-size: 1.5em;
+    border-style: none;
+    border-radius: 2em;
+    padding: 0.5em;
+}
+
+.main__allfields{
+
+}
+
+.main__allfields form{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__formfields{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+}
+
+
+.main__fields input{
+    font-size: 1.5em;
+    border-style: none;
+    border-radius: 2em;
+    padding: 0.5em;
+}
+
+
+
+.main__verificationmessage span{
+    color: #fff;
+    font-weight: bold;
+    font-family: arial;
+}
+
+
+
+.main__button button{
+    padding: 0.5em 1em;
+    font-size: 1.5em;
+    border-radius: 2em;
+    border-style: solid;
+    color: #e28dcf;
+    font-weight: bold;
+    border-width: 0.2em;
+    border-color: #ffff;
+    background-color: #fff;
+    transition-property: border-color border-style color background-color border-width;
+    transition-duration: 0.5s;
+    cursor: pointer;
+
+    &:hover{
+        border-style: solid;
+        border-color: #ffff;
+        background-color: #e28dcf;
+        color: #fff;
+        border-width: 0.2em;
+    }
+}
+
+/* =----------------== */
+
+
+
+.main__sectionsave{
+    background-color: #d361b6;
+    padding: 0.1em 2em;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: arial;
+    border-radius: 2em;
+    position: fixed;
+    left: 50%;
+    top: -4em;
+    box-shadow: 0px 0px 20px 5px #d361b6;
+    transition: top 0.5s;
+
+    &.save{
+        top: 1em;
+    }
+}
+
